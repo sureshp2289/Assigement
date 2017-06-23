@@ -35,7 +35,6 @@ SharedPreferences sharedPreferences;
     @OnClick(R.id.btn_signin)
 
     public void onclick(Button button) {
-        AppUtils.hideEdittext(Login_Activity.this);
         String emailPattern ="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
         if(et_email.getText().toString().trim().length()>0&&et_password.getText().toString().trim().length()>0)
         {

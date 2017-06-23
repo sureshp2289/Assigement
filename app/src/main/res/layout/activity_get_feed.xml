@@ -24,7 +24,7 @@
                 android:layout_marginTop="@dimen/fab_margin"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:textSize="@dimen/textsize"
+                android:textSize="@dimen/textsize3"
                 android:textColor="@color/black" />
         </android.support.v7.widget.Toolbar>
 

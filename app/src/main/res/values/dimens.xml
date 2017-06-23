@@ -1,6 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="textsize">15sp</dimen>
+    <dimen name="textsize3">18sp</dimen>
     <dimen name="textsize1">25sp</dimen>
     <dimen name="top_layout_margin">20dp</dimen>
     <dimen name="elevation">05dp</dimen>

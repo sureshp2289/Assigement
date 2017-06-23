@@ -20,11 +20,6 @@ public class AppUtils {
 
     static ProgressDialog progessDialog;
 
-    public static  void hideEdittext(Context context)
-    {
-        InputMethodManager imm = (InputMethodManager) context.getSystemService(context.INPUT_METHOD_SERVICE);
-        imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
-    }
 
     public static ApiInterface getInterfaceService() {
 

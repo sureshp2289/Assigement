@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_margin="@dimen/elevation"
+    android:padding="@dimen/elevation"
     android:elevation="@dimen/elevation"
     android:background="@color/white"
     android:layout_height="wrap_content">
@@ -14,7 +15,7 @@
         android:text="ID \n 1"
         android:layout_marginTop="@dimen/fab_margin"
         android:textStyle="bold"
-        android:textSize="@dimen/textsize1"
+        android:textSize="@dimen/textsize"
         android:textColor="@color/black"
         />
     <TextView
@@ -24,7 +25,7 @@
         android:text="Title \n MacBook Pro"
         android:layout_marginTop="@dimen/fab_margin"
         android:textStyle="bold"
-        android:textSize="@dimen/textsize1"
+        android:textSize="@dimen/textsize"
         android:textColor="@color/black"
          />
     <TextView
@@ -34,7 +35,7 @@
         android:text="Description \n The big Macbook pro"
         android:layout_marginTop="@dimen/fab_margin"
         android:textStyle="bold"
-        android:textSize="@dimen/textsize1"
+        android:textSize="@dimen/textsize"
         android:textColor="@color/black" />
     <TextView
         android:id="@+id/tv_year"
@@ -43,7 +44,7 @@
         android:text="Year \n 26-04-2017"
         android:layout_marginTop="@dimen/fab_margin"
         android:textStyle="bold"
-        android:textSize="@dimen/textsize1"
+        android:textSize="@dimen/textsize"
         android:textColor="@color/black" />
     <TextView
         android:id="@+id/tv_userid"
@@ -52,6 +53,6 @@
         android:text="User_Id \n 99045"
         android:layout_marginTop="@dimen/fab_margin"
         android:textStyle="bold"
-        android:textSize="@dimen/textsize1"
+        android:textSize="@dimen/textsize"
         android:textColor="@color/black" />
 </LinearLayout>
