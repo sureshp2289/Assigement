@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/elevation"
+    android:elevation="@dimen/elevation"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID \n 1"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title \n MacBook Pro"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black"
+         />
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description \n The big Macbook pro"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year \n 26-04-2017"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/tv_userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User_Id \n 99045"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/textsize1"
+        android:textColor="@color/black" />
+</LinearLayout>
